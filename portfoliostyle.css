@@ -1,0 +1,10 @@
+
+.navbar-brand{
+    box-shadow: aliceblue;
+    background-color: cadetblue;
+    color: rgb(251, 252, 253);
+    font-weight: 700;
+}
+a{
+    color: black;
+}
