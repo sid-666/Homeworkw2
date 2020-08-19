@@ -8,3 +8,39 @@
 a{
     color: black;
 }
+img{
+  display: grid;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 60%;
+}
+
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 5px ;
+}
+.page-header{
+    padding-left: 0px;
+    display: block;
+    color: teal ;
+    border-bottom-width: thick;
+    border-bottom-color: black;
+}
+.col-md-6{
+    display: grid;
+    border: cornsilk;
+    background-color: ghostwhite;
+    padding-right: 0px;
+    margin-right: 0px;
+    
+}
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+main {
+    background-color:lightgray;
+}
