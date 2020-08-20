@@ -52,3 +52,19 @@ img{
 main {
     background-color:lightgray;
 }
+.boutme {
+    float: left;
+    border: lightgreen;
+    border-style: ridge;
+    width: 200px;
+    height: 195px;
+    padding: 0 10px 0 0;
+    
+}
+.textboutme {
+    padding: 10px;
+    text-align: justify;
+    float: right;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
