@@ -2,7 +2,7 @@
 .navbar-brand{
     box-shadow: aliceblue;
     background-color: cadetblue;
-    color: rgb(251, 252, 253);
+    color: rgb(251, 252, 253)!important;
     font-weight: 700;
 }
 a{
@@ -12,7 +12,7 @@ img{
   display: grid;
   margin-left: 0px;
   margin-right: 0px;
-  width: 60%;
+  width: 70px;
 }
 
 .row{
@@ -59,12 +59,25 @@ main {
     width: 200px;
     height: 195px;
     padding: 0 10px 0 0;
+    margin-right: 10px;
     
 }
 .textboutme {
     padding: 10px;
     text-align: justify;
-    float: right;
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 768px){
+    img {
+        margin-bottom: 40px;
+    }
+    .row {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .page-header {
+        margin-bottom: 30px;
+    }
+    
 }
