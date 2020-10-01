@@ -25,6 +25,7 @@ img{
 .page-header{
     padding-left: 0px;
     display: block;
+    height: 70px;
     color: teal ;
     border-bottom-width: thick;
     border-bottom-color: black;
@@ -52,6 +53,10 @@ img{
 main {
     background-color:lightgray;
 }
+.boutmeinfo{
+    margin-top: 70px;
+    position: absolute;
+}
 .boutme {
     float: left;
     border: lightgreen;
@@ -70,6 +75,11 @@ main {
 }
 .perinfo {
     font-weight: bold;
+}
+.workimg{
+    display: block;
+    width: 500px;
+    height: 300px;
 }
 @media screen and (max-width: 768px){
     img {
